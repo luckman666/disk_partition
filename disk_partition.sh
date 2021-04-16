@@ -1,6 +1,4 @@
 #! /bin/bash
-# Author:谢公子
-# Date:2018-10-13
 # Function:对硬盘进行分区,得到一个标准的linux文件系统(ext4/xfs)的主分区
 cat /proc/partitions > old
 read -p "请输入你要分区的硬盘(写绝对路径，如：/dev/sda)：" A
